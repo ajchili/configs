@@ -1,0 +1,12 @@
+{
+    "editor.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "editor.fontLigatures": true,
+    "debug.console.fontSize": 16,
+    "markdown.preview.fontSize": 16,
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "Cobalt2",
+    "window.zoomLevel": 0,
+    "go.useLanguageServer": true,
+    "editor.rulers": [80]
+}
