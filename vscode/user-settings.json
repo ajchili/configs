@@ -2,7 +2,9 @@
   /* VSCode Settings */
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.bracketPairColorization.enabled": true,
+  "editor.insertSpaces": false,
   "editor.rulers": [100],
+  "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "editor.wordWrapColumn": 100,
   "files.autoSave": "onFocusChange",
