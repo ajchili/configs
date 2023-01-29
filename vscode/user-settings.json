@@ -1,0 +1,23 @@
+{
+  /* VSCode Settings */
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.rulers": [100],
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 100,
+  "files.autoSave": "onFocusChange",
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "telemetry.telemetryLevel": "off",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true
+  },
+
+  /* Language Specific Settings */
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  /* Error Lens Settings */
+  "errorLens.exclude": ["Unknown word"]
+}
