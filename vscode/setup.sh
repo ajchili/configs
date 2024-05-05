@@ -13,16 +13,18 @@ extensions=("esbenp.prettier-vscode" \
     "ms-vscode-remote.remote-ssh-edit" \
     "pnp.polacode" \
     "oderwat.indent-rainbow" \
-    "vscjava.vscode-java-pack" \
-    "vscjava.vscode-lombok" \
-    "gruntfuggly.todo-tree")
+    "gruntfuggly.todo-tree" \
+    "mhutchie.git-graph" \
+    "vscode-icons-team.vscode-icons")
 
 for extension in "${extensions[@]}"; do
     code --install-extension "$extension"
 done
 
-themes=("wesbos.theme-cobalt2")
+themes=("wesbos.theme-cobalt2" "zhuangtongfa.material-theme")
 
 for theme in "${themes[@]}"; do
     code --install-extension "$theme"
 done
+
+cp "$(dirname "${BASH_SOURCE[0]}")/settings.json" ~/Library/Application\ Support/Code/User

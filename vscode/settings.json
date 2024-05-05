@@ -1,6 +1,9 @@
 {
   /* VSCode Settings */
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.iconTheme": "vscode-icons",
   "editor.bracketPairColorization.enabled": true,
   "editor.insertSpaces": false,
   "editor.rulers": [100],
@@ -16,6 +19,10 @@
     "**/bower_components": true,
     "**/*.code-search": true
   },
+  "editor.stickyScroll.enabled": true,
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.colorTheme": "One Dark Pro Mix",
+  "diffEditor.ignoreTrimWhitespace": false,
 
   /* Language Specific Settings */
   "typescript.updateImportsOnFileMove.enabled": "always",
